@@ -24,49 +24,25 @@ concurrency:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout the code
-      uses: actions/checkout@v4
-      with:
-        repository: 'szabgab/news-collector.rs'
-        path: .
-
     - name: Checkout this repo
       uses: actions/checkout@v4
-      with:
-        repository: 'szabgab/rust-news'
-        path: config
 
-
-    - name: Build debug version
-      run: cargo build --verbose
-
-    - name: Run tests
-      run: cargo test --verbose
-
-    - name: Check cargo fmt
-      run: cargo fmt --check
-
-    - name: Clippy stop at any warning
-      run: cargo clippy -- --deny warnings
-
+    - name: Download processor
+      run: |
+        wget https://news-collector.code-maven.com/news-collector
+        chmod +x news-collector
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
-
-        #    - name: Download processor
-        #      run: |
-        #        wget https://ssg.code-maven.com/code-maven-web
-        #        chmod +x code-maven-web
 
     - name: Generate pages
       env:
         RUST_LOG: debug
       run: |
-        cargo run  -- --download --web --config config/rust.yaml
+        ./news-collector --download --web --config config/rust.yaml
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
