@@ -42,7 +42,7 @@ jobs:
       env:
         RUST_LOG: debug
       run: |
-        ./news-collector --download --web --config config/rust.yaml
+        ./news-collector --download --web --config rust.yaml
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
