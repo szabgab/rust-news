@@ -31,3 +31,6 @@ feeds:
   - site: https://mainmatter.com/
     url: https://mainmatter.com/feed.xml
     title: Mainmatter
+  - site: https://users.rust-lang.org/
+    url: https://users.rust-lang.org/posts.rss
+    title: Rust Users
