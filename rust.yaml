@@ -51,7 +51,18 @@ feeds:
     url: https://bevyengine.org/atom.xml
     title: Bevy Game engine
 
-  - site: https://boajs.dev/
-    url: https://boajs.dev/blog/rss.xml
+  - site:  https://boajs.dev/
+    url:   https://boajs.dev/blog/rss.xml
     title: Boa ECMAScript engine written in Rust
 
+  - site:  https://www.memorysafety.org/
+    url:   https://www.memorysafety.org/index.xml
+    title: Memory Safety
+
+  - site:  https://www.lpalmieri.com/
+    url:   https://www.lpalmieri.com/rss.xml
+    title: Luca Palmieri
+
+      #  - site:  
+      #    url:   
+      #    title: 
