@@ -83,6 +83,11 @@ feeds:
     url:   https://ochagavia.nl/index.xml
     title: Adolfo Ochagavía
 
+  - site:  https://www.infoq.com/
+    url:   https://feed.infoq.com/Rust
+    title: InfoQ
+
+
       #  - site:  
       #    url:   
       #    title: 
