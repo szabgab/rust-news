@@ -50,3 +50,8 @@ feeds:
   - site: https://bevyengine.org/
     url: https://bevyengine.org/atom.xml
     title: Bevy Game engine
+
+  - site: https://boajs.dev/
+    url: https://boajs.dev/blog/rss.xml
+    title: Boa ECMAScript engine written in Rust
+
