@@ -26,11 +26,13 @@ feeds:
   - site: https://www.thecodedmessage.com/
     url: https://www.thecodedmessage.com/tags/computers/index.xml
     title: The Coded Message by Jimmy Hartzell
-  - site: https://smallcultfollowing.com/babysteps/
-    url: https://smallcultfollowing.com/babysteps//atom.xml
+
+  - site:  https://smallcultfollowing.com/babysteps/
+    url:   https://smallcultfollowing.com/babysteps//atom.xml
     title: baby steps by Niko Matsakis
-  - site: https://mainmatter.com/
-    url: https://mainmatter.com/feed.xml
+
+  - site:  https://mainmatter.com/
+    url:   https://mainmatter.com/feed.xml
     title: Mainmatter
       #  - site: https://users.rust-lang.org/
       #    url: https://users.rust-lang.org/posts.rss
@@ -43,12 +45,12 @@ feeds:
       #    title: Rust Users
       # Only questions (topics)
 
-  - site: https://rust-osdev.com/rss.xml
-    url: https://rust-osdev.com/rss.xml
+  - site:  https://rust-osdev.com/rss.xml
+    url:   https://rust-osdev.com/rss.xml
     title: Rust OSDev
 
-  - site: https://bevyengine.org/
-    url: https://bevyengine.org/atom.xml
+  - site:  https://bevyengine.org/
+    url:   https://bevyengine.org/atom.xml
     title: Bevy Game engine
 
   - site:  https://boajs.dev/
@@ -87,6 +89,20 @@ feeds:
     url:   https://feed.infoq.com/Rust
     title: InfoQ
 
+
+  - site:  https://blog.jetbrains.com/
+    url:   https://blog.jetbrains.com/feed/
+    title: JetBrains
+    # TODO filter for "rust" ?
+
+      # - site:  https://www.shuttle.rs/
+      #   url:   https://www.shuttle.rs/rss.xml
+      #   title: Shuttle
+    # currently 404. See https://github.com/shuttle-hq/www/issues/233
+
+  - site:  https://blog.weiznich.de/
+    url:   https://blog.weiznich.de/atom.xml
+    title: Weiznich (Georg Semmler)
 
       #  - site:  
       #    url:   
