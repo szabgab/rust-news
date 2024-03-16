@@ -63,6 +63,27 @@ feeds:
     url:   https://www.lpalmieri.com/rss.xml
     title: Luca Palmieri
 
+  - site:  https://relm4.org/
+    url:   https://relm4.org/blog/index.xml
+    title: Relm4
+
+  - site:  https://meilisearch.com
+    url:   https://blog.meilisearch.com/rss/
+    title: Meilisearch
+
+  - site:  https://kobzol.github.io/
+    url:   https://kobzol.github.io/feed.xml
+    title: Kobzol's blog (Jakub Beránek)
+
+  - site:  https://greptime.com/
+    url:   https://greptime.com/blogs/rss.xml
+    title: Greptime - Cloud Native TSDB
+
+  - site:  https://ochagavia.nl/
+    url:   https://ochagavia.nl/index.xml
+    title: Adolfo Ochagavía
+
       #  - site:  
       #    url:   
       #    title: 
+
