@@ -1,11 +1,12 @@
 title: Rust news
 description: A collection of the most recent news about the Rust programming language
 feeds:
-  - site: https://blog.rust-lang.org/
-    url: https://blog.rust-lang.org/feed.xml
+  - site:  https://blog.rust-lang.org/
+    url:   https://blog.rust-lang.org/feed.xml
     title: Rust-Lang Main Blog
-  - site: https://blog.rust-lang.org/inside-rust/
-    url: https://blog.rust-lang.org/inside-rust/feed.xml
+
+  - site:  https://blog.rust-lang.org/inside-rust/
+    url:   https://blog.rust-lang.org/inside-rust/feed.xml
     title: Inside Rust
       # Too noisy, Enable these only once the user can create a filter
       #  - site: https://stackoverflow.com/questions/tagged/rust
@@ -14,17 +15,21 @@ feeds:
       #  - site: https://www.reddit.com/r/rust
       #    url: https://www.reddit.com/r/rust.rss
       #    title: r/rust
-  - site: https://rust.code-maven.com/
-    url: https://rust.code-maven.com/atom
+
+  - site:  https://rust.code-maven.com/
+    url:   https://rust.code-maven.com/atom
     title: Rust Maven
-  - site: https://blog.m-ou.se/
-    url: https://blog.m-ou.se/index.xml
+
+  - site:  https://blog.m-ou.se/
+    url:   https://blog.m-ou.se/index.xml
     title: Mara's Blog (Mara Bos)
-  - site: https://rust-analyzer.github.io/
-    url: https://rust-analyzer.github.io/feed.xml
+
+  - site:  https://rust-analyzer.github.io/
+    url:   https://rust-analyzer.github.io/feed.xml
     title: rust-analyzer
-  - site: https://www.thecodedmessage.com/
-    url: https://www.thecodedmessage.com/tags/computers/index.xml
+
+  - site:  https://www.thecodedmessage.com/
+    url:   https://www.thecodedmessage.com/tags/computers/index.xml
     title: The Coded Message by Jimmy Hartzell
 
   - site:  https://smallcultfollowing.com/babysteps/
