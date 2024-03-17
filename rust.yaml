@@ -1,5 +1,6 @@
 title: Rust news
 description: A collection of the most recent news about the Rust programming language
+per_feed_limit: 10
 feeds:
   - site:  https://blog.rust-lang.org/
     url:   https://blog.rust-lang.org/feed.xml
