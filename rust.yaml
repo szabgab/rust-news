@@ -98,7 +98,7 @@ feeds:
   - site:  https://blog.jetbrains.com/
     url:   https://blog.jetbrains.com/feed/
     title: JetBrains
-    # TODO filter for "rust" ?
+    filter: rust
 
       # - site:  https://www.shuttle.rs/
       #   url:   https://www.shuttle.rs/rss.xml
