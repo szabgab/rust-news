@@ -110,6 +110,16 @@ feeds:
     url:   https://blog.weiznich.de/atom.xml
     title: Weiznich (Georg Semmler)
 
+
+  - site:  https://apollolabsblog.hashnode.dev/
+    url:   https://apollolabsblog.hashnode.dev/rss.xml
+    title: ApolloLabs.bin (Omar Hiari)
+
+      #  - site:  https://surrealdb.com/
+      #    url:   
+      #    title: SurrealDB
+      #    Could not find feed https://github.com/surrealdb/www.surrealdb.world/issues/3
+
       #  - site:  
       #    url:   
       #    title: 
