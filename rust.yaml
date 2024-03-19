@@ -118,9 +118,19 @@ feeds:
     title: ApolloLabs.bin (Omar Hiari)
 
       #  - site:  https://surrealdb.com/
-      #    url:   
+      #    url:
       #    title: SurrealDB
       #    Could not find feed https://github.com/surrealdb/www.surrealdb.world/issues/3
+
+  - site:  https://barretts.club/
+    url:   https://barretts.club/atom.xml
+    title: Barrett's Club (Barret Ray)
+    filter: rust
+
+  - site: https://polar.sh/davidhewitt
+    url:  https://polar.sh/davidhewitt/rss
+    title: David Hewitt
+
 
       #  - site:  
       #    url:   
