@@ -26,7 +26,7 @@ feeds:
     title: Inside Rust
 
   - site:  https://rust.code-maven.com/
-    url:   https://rust.code-maven.com/atom
+    url:   https://rust.code-maven.com/atom.xml
     title: Rust Maven (Gabor Szabo)
 
   - site:  https://blog.m-ou.se/
