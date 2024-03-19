@@ -3,6 +3,20 @@ description: A collection of the most recent news about the Rust programming lan
 per_feed_limit: 10
 config_url: https://github.com/szabgab/rust-news/
 feeds:
+
+      # Too noisy, Enable these only once the user can create a filter
+      #  - site: https://stackoverflow.com/questions/tagged/rust
+      #    url: https://stackoverflow.com/feeds/tag/rust
+      #    title: Rust questions on StackOverflow
+
+  - site:  https://www.reddit.com/r/rust
+    url:   https://www.reddit.com/r/rust.rss
+    title: r/rust
+
+  - site:  https://dev.to/t/rust
+    url:   https://dev.to/feed/tag/rust
+    title: DEV.to
+
   - site:  https://blog.rust-lang.org/
     url:   https://blog.rust-lang.org/feed.xml
     title: Rust-Lang Main Blog
@@ -10,18 +24,10 @@ feeds:
   - site:  https://blog.rust-lang.org/inside-rust/
     url:   https://blog.rust-lang.org/inside-rust/feed.xml
     title: Inside Rust
-      # Too noisy, Enable these only once the user can create a filter
-      #  - site: https://stackoverflow.com/questions/tagged/rust
-      #    url: https://stackoverflow.com/feeds/tag/rust
-      #    title: Rust questions on StackOverflow
-      #
-  - site:  https://www.reddit.com/r/rust
-    url:   https://www.reddit.com/r/rust.rss
-    title: r/rust
 
   - site:  https://rust.code-maven.com/
     url:   https://rust.code-maven.com/atom
-    title: Rust Maven
+    title: Rust Maven (Gabor Szabo)
 
   - site:  https://blog.m-ou.se/
     url:   https://blog.m-ou.se/index.xml
@@ -150,6 +156,56 @@ feeds:
   - site:  https://blog.yoshuawuyts.com/
     url:   https://blog.yoshuawuyts.com/rss.xml
     title: Yoshua Wuyts
+
+  - site:  https://ferrous-systems.com/
+    url:   https://ferrous-systems.com/blog/feed.xml
+    title: ferrous systems
+
+  - site:  https://blog.the-pans.com/
+    url:   https://blog.the-pans.com/rss/
+    title: Lu's blog (Lu Pan)
+    filter: rust
+
+  - site:  https://servo.org/
+    url:   https://servo.org/blog/feed.xml
+    title: Servo - web rendering engine
+
+  - site:  https://bytecodealliance.org/
+    url:   https://bytecodealliance.org/feed.xml
+    title: Bytecode Alliance
+
+  - site:  https://maximkaaa.github.io/galileo/blog/
+    url:   https://maximkaaa.github.io/galileo/blog/index.xml
+    title: Galileo, Free cross-platform map rendering engine
+
+  - site:  https://www.codethink.co.uk/
+    url:   https://www.codethink.co.uk/feeds/atom.xml
+    title: Codethink, Open Source System Software Experts
+    filter: rust
+
+  - site:  https://without.boats/
+    url:   https://without.boats/index.xml
+    title: Without boats, dreams dry up
+
+  - site:  https://crustc.com/
+    url:   https://crustc.com/feed
+    title: crustc
+
+  - site:  https://asyncmove.com/
+    url:   https://asyncmove.com/index.xml
+    title: Asyncmove (Jim Chng)
+
+  - site:  https://hegdenu.net/
+    url:   https://hegdenu.net/rss.xml
+    title: hēg denu (Hayden Stainsby)
+
+  - site:  https://www.jacobelder.com/
+    url:   https://www.jacobelder.com/feed.xml
+    title: Jacob Elder
+
+  - site:  https://dev-state.com/
+    url:   https://dev-state.com/index.xml
+    title: dev state (Dan Rusei)
 
       #  - site:  
       #    url:   
