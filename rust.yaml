@@ -207,6 +207,10 @@ feeds:
     url:   https://dev-state.com/index.xml
     title: dev state (Dan Rusei)
 
+  - site:  https://justinpombrio.net/
+    url:   https://justinpombrio.net/feed.xml
+    title: Justin Pombrio
+
       #  - site:  
       #    url:   
       #    title: 
