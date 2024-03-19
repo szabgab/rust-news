@@ -127,10 +127,29 @@ feeds:
     title: Barrett's Club (Barret Ray)
     filter: rust
 
-  - site: https://polar.sh/davidhewitt
-    url:  https://polar.sh/davidhewitt/rss
+  - site:  https://polar.sh/davidhewitt
+    url:   https://polar.sh/davidhewitt/rss
     title: David Hewitt
 
+  - site:  https://rust-gcc.github.io/
+    url:   https://rust-gcc.github.io/feed.xml
+    title: GCC Front-End For Rust
+
+  - site:  https://www.fluvio.io/
+    url:   https://www.fluvio.io/news/rss.xml
+    title: Fluvio - Programmable platform for data in motion
+
+  - site:  https://nnethercote.github.io/
+    url:   https://nnethercote.github.io/feed.xml
+    title: Nicholas Nethercote
+
+  - site:  https://swatinem.de/
+    url:   https://swatinem.de/atom.xml
+    title: Swatinem (Arpad Borsos)
+
+  - site:  https://blog.yoshuawuyts.com/
+    url:   https://blog.yoshuawuyts.com/rss.xml
+    title: Yoshua Wuyts
 
       #  - site:  
       #    url:   
