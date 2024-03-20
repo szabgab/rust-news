@@ -17,37 +17,179 @@ feeds:
     url:   https://dev.to/feed/tag/rust
     title: DEV.to
 
-  - site:  https://blog.rust-lang.org/
-    url:   https://blog.rust-lang.org/feed.xml
-    title: Rust-Lang Main Blog
+  - site:  https://ochagavia.nl/
+    url:   https://ochagavia.nl/index.xml
+    title: Adolfo Ochagavía
+
+  - site:  https://swatinem.de/
+    url:   https://swatinem.de/atom.xml
+    title: Swatinem (Arpad Borsos)
+
+  - site:  https://barretts.club/
+    url:   https://barretts.club/atom.xml
+    title: Barrett's Club (Barret Ray)
+    filter: rust
+
+  - site:  https://bevyengine.org/
+    url:   https://bevyengine.org/atom.xml
+    title: Bevy Game engine
+
+  - site:  https://boajs.dev/
+    url:   https://boajs.dev/blog/rss.xml
+    title: Boa ECMAScript engine written in Rust
+
+  - site:  https://bytecodealliance.org/
+    url:   https://bytecodealliance.org/feed.xml
+    title: Bytecode Alliance
+
+  - site:  https://www.codethink.co.uk/
+    url:   https://www.codethink.co.uk/feeds/atom.xml
+    title: Codethink, Open Source System Software Experts
+    filter: rust
+
+  - site:  https://crustc.com/
+    url:   https://crustc.com/feed
+    title: crustc
+
+  - site:  https://polar.sh/davidhewitt
+    url:   https://polar.sh/davidhewitt/rss
+    title: David Hewitt
+
+  - site:  https://dev-state.com/
+    url:   https://dev-state.com/index.xml
+    title: dev state (Dan Rusei)
+
+  - site:  https://ferrous-systems.com/
+    url:   https://ferrous-systems.com/blog/feed.xml
+    title: ferrous systems
+
+  - site:  https://www.fluvio.io/
+    url:   https://www.fluvio.io/news/rss.xml
+    title: Fluvio - Programmable platform for data in motion
+
+  - site:  https://rust-gcc.github.io/
+    url:   https://rust-gcc.github.io/feed.xml
+    title: GCC Front-End For Rust
+
+  - site:  https://blog.weiznich.de/
+    url:   https://blog.weiznich.de/atom.xml
+    title: Weiznich (Georg Semmler)
+
+  - site:  https://greptime.com/
+    url:   https://greptime.com/blogs/rss.xml
+    title: Greptime - Cloud Native TSDB
+
+  - site:  https://www.lpalmieri.com/
+    url:   https://www.lpalmieri.com/rss.xml
+    title: Luca Palmieri
+
+  - site:  https://blog.the-pans.com/
+    url:   https://blog.the-pans.com/rss/
+    title: Lu's blog (Lu Pan)
+    filter: rust
+
+  - site:  https://maximkaaa.github.io/galileo/blog/
+    url:   https://maximkaaa.github.io/galileo/blog/index.xml
+    title: Galileo, Free cross-platform map rendering engine
+
+  - site:  https://hegdenu.net/
+    url:   https://hegdenu.net/rss.xml
+    title: hēg denu (Hayden Stainsby)
+
+  - site:  https://www.infoq.com/
+    url:   https://feed.infoq.com/Rust
+    title: InfoQ
 
   - site:  https://blog.rust-lang.org/inside-rust/
     url:   https://blog.rust-lang.org/inside-rust/feed.xml
     title: Inside Rust
 
-  - site:  https://rust.code-maven.com/
-    url:   https://rust.code-maven.com/atom.xml
-    title: Rust Maven (Gabor Szabo)
+  - site:  https://www.jacobelder.com/
+    url:   https://www.jacobelder.com/feed.xml
+    title: Jacob Elder
 
-  - site:  https://blog.m-ou.se/
-    url:   https://blog.m-ou.se/index.xml
-    title: Mara's Blog (Mara Bos)
+  - site:  https://kobzol.github.io/
+    url:   https://kobzol.github.io/feed.xml
+    title: Kobzol's blog (Jakub Beránek)
 
-  - site:  https://rust-analyzer.github.io/
-    url:   https://rust-analyzer.github.io/feed.xml
-    title: rust-analyzer
+  - site:  https://blog.jetbrains.com/
+    url:   https://blog.jetbrains.com/feed/
+    title: JetBrains
+    filter: rust
+
+  - site:  https://asyncmove.com/
+    url:   https://asyncmove.com/index.xml
+    title: Asyncmove (Jim Chng)
 
   - site:  https://www.thecodedmessage.com/
     url:   https://www.thecodedmessage.com/tags/computers/index.xml
     title: The Coded Message by Jimmy Hartzell
 
-  - site:  https://smallcultfollowing.com/babysteps/
-    url:   https://smallcultfollowing.com/babysteps//atom.xml
-    title: baby steps by Niko Matsakis
+  - site:  https://justinpombrio.net/
+    url:   https://justinpombrio.net/feed.xml
+    title: Justin Pombrio
 
   - site:  https://mainmatter.com/
     url:   https://mainmatter.com/feed.xml
     title: Mainmatter
+
+  - site:  https://blog.m-ou.se/
+    url:   https://blog.m-ou.se/index.xml
+    title: Mara Bos
+
+  - site:  https://meilisearch.com
+    url:   https://blog.meilisearch.com/rss/
+    title: Meilisearch
+
+  - site:  https://www.memorysafety.org/
+    url:   https://www.memorysafety.org/index.xml
+    title: Memory Safety
+
+  - site:  https://nnethercote.github.io/
+    url:   https://nnethercote.github.io/feed.xml
+    title: Nicholas Nethercote
+
+  - site:  https://smallcultfollowing.com/babysteps/
+    url:   https://smallcultfollowing.com/babysteps//atom.xml
+    title: baby steps by Niko Matsakis
+
+  - site:  https://apollolabsblog.hashnode.dev/
+    url:   https://apollolabsblog.hashnode.dev/rss.xml
+    title: ApolloLabs.bin (Omar Hiari)
+
+  - site:  https://relm4.org/
+    url:   https://relm4.org/blog/index.xml
+    title: Relm4
+
+  - site:  https://blog.rust-lang.org/
+    url:   https://blog.rust-lang.org/feed.xml
+    title: Rust-Lang Main Blog
+
+  - site:  https://rust-analyzer.github.io/
+    url:   https://rust-analyzer.github.io/feed.xml
+    title: rust-analyzer
+
+  - site:  https://rust.code-maven.com/
+    url:   https://rust.code-maven.com/atom.xml
+    title: Rust Maven (Gabor Szabo)
+
+  - site:  https://rust-osdev.com/rss.xml
+    url:   https://rust-osdev.com/rss.xml
+    title: Rust OSDev
+
+  - site:  https://servo.org/
+    url:   https://servo.org/blog/feed.xml
+    title: Servo - web rendering engine
+
+  - site:  https://blog.yoshuawuyts.com/
+    url:   https://blog.yoshuawuyts.com/rss.xml
+    title: Yoshua Wuyts
+
+  - site:  https://without.boats/
+    url:   https://without.boats/index.xml
+    title: Without boats, dreams dry up
+
+
       #  - site: https://users.rust-lang.org/
       #    url: https://users.rust-lang.org/posts.rss
       #    title: Rust Users posts
@@ -59,157 +201,15 @@ feeds:
       #    title: Rust Users
       # Only questions (topics)
 
-  - site:  https://rust-osdev.com/rss.xml
-    url:   https://rust-osdev.com/rss.xml
-    title: Rust OSDev
-
-  - site:  https://bevyengine.org/
-    url:   https://bevyengine.org/atom.xml
-    title: Bevy Game engine
-
-  - site:  https://boajs.dev/
-    url:   https://boajs.dev/blog/rss.xml
-    title: Boa ECMAScript engine written in Rust
-
-  - site:  https://www.memorysafety.org/
-    url:   https://www.memorysafety.org/index.xml
-    title: Memory Safety
-
-  - site:  https://www.lpalmieri.com/
-    url:   https://www.lpalmieri.com/rss.xml
-    title: Luca Palmieri
-
-  - site:  https://relm4.org/
-    url:   https://relm4.org/blog/index.xml
-    title: Relm4
-
-  - site:  https://meilisearch.com
-    url:   https://blog.meilisearch.com/rss/
-    title: Meilisearch
-
-  - site:  https://kobzol.github.io/
-    url:   https://kobzol.github.io/feed.xml
-    title: Kobzol's blog (Jakub Beránek)
-
-  - site:  https://greptime.com/
-    url:   https://greptime.com/blogs/rss.xml
-    title: Greptime - Cloud Native TSDB
-
-  - site:  https://ochagavia.nl/
-    url:   https://ochagavia.nl/index.xml
-    title: Adolfo Ochagavía
-
-  - site:  https://www.infoq.com/
-    url:   https://feed.infoq.com/Rust
-    title: InfoQ
-
-
-  - site:  https://blog.jetbrains.com/
-    url:   https://blog.jetbrains.com/feed/
-    title: JetBrains
-    filter: rust
-
       # - site:  https://www.shuttle.rs/
       #   url:   https://www.shuttle.rs/rss.xml
       #   title: Shuttle
     # currently 404. See https://github.com/shuttle-hq/www/issues/233
 
-  - site:  https://blog.weiznich.de/
-    url:   https://blog.weiznich.de/atom.xml
-    title: Weiznich (Georg Semmler)
-
-
-  - site:  https://apollolabsblog.hashnode.dev/
-    url:   https://apollolabsblog.hashnode.dev/rss.xml
-    title: ApolloLabs.bin (Omar Hiari)
-
       #  - site:  https://surrealdb.com/
       #    url:
       #    title: SurrealDB
       #    Could not find feed https://github.com/surrealdb/www.surrealdb.world/issues/3
-
-  - site:  https://barretts.club/
-    url:   https://barretts.club/atom.xml
-    title: Barrett's Club (Barret Ray)
-    filter: rust
-
-  - site:  https://polar.sh/davidhewitt
-    url:   https://polar.sh/davidhewitt/rss
-    title: David Hewitt
-
-  - site:  https://rust-gcc.github.io/
-    url:   https://rust-gcc.github.io/feed.xml
-    title: GCC Front-End For Rust
-
-  - site:  https://www.fluvio.io/
-    url:   https://www.fluvio.io/news/rss.xml
-    title: Fluvio - Programmable platform for data in motion
-
-  - site:  https://nnethercote.github.io/
-    url:   https://nnethercote.github.io/feed.xml
-    title: Nicholas Nethercote
-
-  - site:  https://swatinem.de/
-    url:   https://swatinem.de/atom.xml
-    title: Swatinem (Arpad Borsos)
-
-  - site:  https://blog.yoshuawuyts.com/
-    url:   https://blog.yoshuawuyts.com/rss.xml
-    title: Yoshua Wuyts
-
-  - site:  https://ferrous-systems.com/
-    url:   https://ferrous-systems.com/blog/feed.xml
-    title: ferrous systems
-
-  - site:  https://blog.the-pans.com/
-    url:   https://blog.the-pans.com/rss/
-    title: Lu's blog (Lu Pan)
-    filter: rust
-
-  - site:  https://servo.org/
-    url:   https://servo.org/blog/feed.xml
-    title: Servo - web rendering engine
-
-  - site:  https://bytecodealliance.org/
-    url:   https://bytecodealliance.org/feed.xml
-    title: Bytecode Alliance
-
-  - site:  https://maximkaaa.github.io/galileo/blog/
-    url:   https://maximkaaa.github.io/galileo/blog/index.xml
-    title: Galileo, Free cross-platform map rendering engine
-
-  - site:  https://www.codethink.co.uk/
-    url:   https://www.codethink.co.uk/feeds/atom.xml
-    title: Codethink, Open Source System Software Experts
-    filter: rust
-
-  - site:  https://without.boats/
-    url:   https://without.boats/index.xml
-    title: Without boats, dreams dry up
-
-  - site:  https://crustc.com/
-    url:   https://crustc.com/feed
-    title: crustc
-
-  - site:  https://asyncmove.com/
-    url:   https://asyncmove.com/index.xml
-    title: Asyncmove (Jim Chng)
-
-  - site:  https://hegdenu.net/
-    url:   https://hegdenu.net/rss.xml
-    title: hēg denu (Hayden Stainsby)
-
-  - site:  https://www.jacobelder.com/
-    url:   https://www.jacobelder.com/feed.xml
-    title: Jacob Elder
-
-  - site:  https://dev-state.com/
-    url:   https://dev-state.com/index.xml
-    title: dev state (Dan Rusei)
-
-  - site:  https://justinpombrio.net/
-    url:   https://justinpombrio.net/feed.xml
-    title: Justin Pombrio
 
       #  - site:  
       #    url:   
