@@ -189,6 +189,7 @@ feeds:
     url:   https://without.boats/index.xml
     title: Without boats, dreams dry up
 
+      # https://godot-rust.github.io/dev/    No feed, see: https://github.com/godot-rust/godot-rust.github.io/issues/5
 
       #  - site: https://users.rust-lang.org/
       #    url: https://users.rust-lang.org/posts.rss
